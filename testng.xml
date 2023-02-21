@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="productOrderTestSuite">
+    <classes>
+      
+      <class name="Selenium.sauceDemo.BrowserTest"/>
+      <class name="Selenium.sauceDemo.OrderProductTest"/>
+	  <class name="Selenium.sauceDemo.SendEmail"/>
+
+    </classes>
+  </test> <!-- productOrderTestSuite -->
+</suite> <!-- Suite -->
