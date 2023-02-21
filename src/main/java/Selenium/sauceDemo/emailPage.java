@@ -40,7 +40,7 @@ public class emailPage {
 	}
 	
 	private WebElement get_message() {
-		return driver.findElement(By.xpath("//div[@class='row contact']//h2"));
+		return driver.findElement(By.xpath("//*[text()='Thanks for getting in touch ']"));
 	}
 	
 	public void email_Verify(String name, String email, String phoneNo, String sub, String description) throws Exception {
@@ -49,7 +49,7 @@ public class emailPage {
 		get_Phone().sendKeys(phoneNo);
 		get_Subject().sendKeys(sub);
 		get_descr().sendKeys(description);
-		get_submit().submit();
+		get_submit().click();
 		base b = new base();
 		b.scrollTolevel();
 		Thread.sleep(3000);

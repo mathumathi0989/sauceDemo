@@ -5,7 +5,7 @@
     <classes>
       
       <class name="Selenium.sauceDemo.BrowserTest"/>
-      <class name="Selenium.sauceDemo.OrderProductTest"/>
+   <class name="Selenium.sauceDemo.OrderProductTest"/> 
 	  <class name="Selenium.sauceDemo.SendEmail"/>
 
     </classes>
